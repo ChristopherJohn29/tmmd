@@ -1,0 +1,30 @@
+/*
+ * SIDEBAR CUSTOM CSS
+ * -------------------------
+ */
+
+/* Sidebar background color */
+[data-kt-app-layout=dark-sidebar] .app-sidebar {
+    background-color: #033859 !important;
+}
+
+/* Sidebar heading color */
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item .menu-heading {
+    color: #88b0d8 !important;
+}
+
+/* Sidebar menu link color */
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item .menu-link .menu-title {
+    color: #88b0d8 !important;
+}
+
+/* Logout Button */
+[data-kt-app-layout=dark-sidebar] .app-sidebar .btn-custom {
+    color: #88b0d8;
+    background-color: rgba(7,96,151,.90);
+}
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .btn-custom:hover:not(.btn-active) {
+    color: #fff;
+    background-color: rgba(7,96,151,.35) !important;
+}
